@@ -151,4 +151,38 @@ unsigned int find_mean(unsigned char *data, unsigned int size){
     return (sum/size);
 }
 
+/**
+ * @brief This funtion returns the maximum value of an array.
+ *
+ * Given an array of data (sorted in descending order) returns the maximum value. For this,
+ * the array must be sorted in descending order where the zero-index element is the
+ * maximum one.
+ *
+ * @param data An unsigned char n-element data array sorted is descending order.
+ *
+ * @return maximum value as unsigned integer 
+ */
+
+unsigned int find_maximum(unsigned char data[]){
+    return data[0];
+}
+
+
+/**
+ * @brief This funtion returns the minimum value of an array.
+ *
+ * Given an array of data (sorted in descending order) and its size returns the minimum value. For this,
+ * the array must be sorted in descending order where the [size -1] index element is the
+ * maximum one.
+ *
+ * @param data An unsigned char n-element data array sorted is descending order.
+ * @param size An unsigned integer representing the size of the array
+ *
+ * @return maximum value as unsigned integer 
+ */
+
+unsigned int find_minimum(unsigned char data[], unsigned int size){
+    return data[size-1];
+}
+
 #endif /* __STATS_H__ */

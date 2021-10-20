@@ -45,8 +45,8 @@ void main() {
   /* Statistics and Printing Functions Go Here */
   sort_array(test,SIZE);
   print_array(test,SIZE); //To check it was correctly sorted
-  max = test[0];
-  min = test[SIZE-1];
+  max = find_maximum(test);
+  min = find_minimum(test,SIZE);
   mean = find_mean(test,SIZE);
   median = find_median(test,SIZE);
   print_statistics(mean, median, max, min);
