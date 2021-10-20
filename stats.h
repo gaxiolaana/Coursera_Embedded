@@ -30,6 +30,8 @@
  * This funtion calls methods to calculate the minimum, maximum, mean, and median
  * values of an array and prints them out to the console.
  *
+ *Functions are declare and coded.
+ 
  * @param mean An unsigned integer representing the mean
  * @param median An unsigned integer representing the median
  * @param max An unsigned integer representing the max value

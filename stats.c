@@ -12,8 +12,7 @@
  * @file stats.c
  * @brief This file test the functionality of stats.h by calculating the mean, median, max
  * and min vaues of a unsigned char n-element data array.
- *
- * This file contains primarly 
+ * 
  *
  * @author Ana Gaxiola
  * @date 19.10.2021
